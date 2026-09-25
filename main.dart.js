@@ -109283,7 +109283,7 @@ A.aDL.prototype={
 $2(a,b){return this.a.al()},
 $S:656}
 A.nb.prototype={
-afr(a,b,c,d){var s,r=this,q="http://localhost:3000/v1",p="application/json",o=r.a,n=o.mE$
+afr(a,b,c,d){var s,r=this,q="https://lamma-api-production-33bd.up.railway.app",p="application/json",o=r.a,n=o.mE$
 n===$&&A.a()
 o.mE$=n.a3w(A.b0Y(q),B.rF,p,B.jk,B.fH,B.jk,new A.aec())
 n=r.b
