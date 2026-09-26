@@ -118653,7 +118653,7 @@ mU(a){return this.ax5(a)},
 ax4(){return this.mU(null)},
 ax5(a0){var s=0,r=A.x(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c,b,a
 var $async$mU=A.y(function(a1,a2){if(a1===1){o.push(a2)
-s=p}for(;;)switch(s){case 0:if(!m.w)h=(a0==null?null:a0.d)===!0
+s=p}for(;;)switch(s){case 0:if(!m.w)h=(a0==null?null:a0.a)==="SUPER_ADMIN"
 else h=!0
 if(h){s=1
 break}m.D(new A.aGY(m))
@@ -118725,7 +118725,7 @@ return A.w($async$mU,r)},
 y3(a){return this.an7(a)},
 an7(a){var s=0,r=A.x(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i
 var $async$y3=A.y(function(b,c){if(b===1){o.push(c)
-s=p}for(;;)switch(s){case 0:if(m.w||a.d){s=1
+s=p}for(;;)switch(s){case 0:if(m.w||a.a==="SUPER_ADMIN"){s=1
 break}k=m.c
 k.toString
 s=3
@@ -118761,7 +118761,7 @@ case 7:case 1:return A.v(q,r)
 case 2:return A.u(o.at(-1),r)}})
 return A.w($async$y3,r)},
 W5(a){var s,r=a.a
-A:{if("CONFLICT"===r){s="\u0644\u0627 \u064a\u0645\u0643\u0646 \u062d\u0630\u0641 \u0627\u0644\u062f\u0648\u0631 \u0644\u0623\u0646\u0647 \u0645\u0633\u062a\u062e\u062f\u0645 \u0645\u0646 \u0623\u0639\u0636\u0627\u0621 \u0627\u0644\u0641\u0631\u064a\u0642. \u0623\u0639\u062f \u062a\u0639\u064a\u064a\u0646 \u0627\u0644\u0623\u0639\u0636\u0627\u0621 \u0623\u0648\u0644\u064b\u0627."
+A:{if("CONFLICT"===r){s="\u0644\u0627 \u064a\u0645\u0643\u0646 \u062d\u0630\u0641 \u0647\u0630\u0627 \u0627\u0644\u062f\u0648\u0631 \u0644\u0623\u0646\u0647 \u0645\u0633\u062a\u062e\u062f\u0645 \u0645\u0646 \u0623\u0639\u0636\u0627\u0621 \u0641\u064a \u0627\u0644\u0641\u0631\u064a\u0642. \u063a\u064a\u0651\u0631 \u0623\u062f\u0648\u0627\u0631\u0647\u0645 \u0623\u0648\u0644\u064b\u0627 \u062b\u0645 \u0623\u0639\u062f \u0627\u0644\u0645\u062d\u0627\u0648\u0644\u0629."
 break A}if("FORBIDDEN"===r){s="\u0647\u0630\u0627 \u0627\u0644\u062f\u0648\u0631 \u0645\u062d\u0645\u064a \u0648\u0644\u0627 \u064a\u0645\u0643\u0646 \u062a\u0646\u0641\u064a\u0630 \u0647\u0630\u0627 \u0627\u0644\u062a\u063a\u064a\u064a\u0631 \u0639\u0644\u064a\u0647."
 break A}if("VALIDATION_ERROR"===r){s=a.b
 if(s.length===0)s="\u062a\u062d\u0642\u0642 \u0645\u0646 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u062f\u0648\u0631 \u0648\u0627\u0644\u0635\u0644\u0627\u062d\u064a\u0627\u062a."
@@ -118826,36 +118826,38 @@ A.aH2.prototype={
 $0(){return this.a.y3(this.b)},
 $S:0}
 A.a_X.prototype={
-C(a){var s,r,q,p,o=this,n=null,m=A.q(a),l=o.c,k=l.a,j=t.O,i=m.ok,h=A.m(l.gql(),n,n,n,n,i.w,n,n,n)
-i=i.Q
-s=i==null
-if(s)r=n
-else{r=m.ax
+C(a){var s,r,q,p,o,n=this,m=null,l=A.q(a),k=n.c,j=k.a,i=t.O,h=l.ok,g=A.m(k.gql(),m,m,m,m,h.w,m,m,m)
+h=h.Q
+s=h==null
+if(s)r=m
+else{r=l.ax
 q=r.ry
 if(q==null){q=r.u
 r=q==null?r.k3:q}else r=q
-r=i.bF(r)}q=t.p
-r=A.bU(A.aj(A.b([h,B.h1,A.m(k,n,n,n,n,r,n,B.f,n)],q),B.O,n,B.h,B.k,0,B.m),1)
-h=A.bE(A.b([r,new A.dK(l.e?"\u0641\u0639\u0627\u0644":"\u063a\u064a\u0631 \u0641\u0639\u0627\u0644",n)],q),B.E,B.h,B.k,0,n)
-r=l.c
-if((r==null?n:B.c.bL(r).length!==0)===!0)r.toString
+r=h.bF(r)}q=t.p
+r=A.bU(A.aj(A.b([g,B.h1,A.m(j,m,m,m,m,r,m,B.f,m)],q),B.O,m,B.h,B.k,0,B.m),1)
+g=A.bE(A.b([r,new A.dK(k.e?"\u0641\u0639\u0627\u0644":"\u063a\u064a\u0631 \u0641\u0639\u0627\u0644",m)],q),B.E,B.h,B.k,0,m)
+r=k.c
+if((r==null?m:B.c.bL(r).length!==0)===!0)r.toString
 else r="\u0644\u0627 \u064a\u0648\u062c\u062f \u0648\u0635\u0641."
-r=A.m(r,n,n,n,n,i,n,n,n)
-p=l.d
-l=l.f
-r=A.b([h,B.bs,r,B.M,A.dQ(A.b([A.b8T(A.m(p?"\u062f\u0648\u0631 \u0623\u0633\u0627\u0633\u064a \u0645\u062d\u0645\u064a":"\u062f\u0648\u0631 \u0645\u062e\u0635\u0635",n,n,n,n,n,n,n,n)),A.b8T(A.m(""+l.length+" \u0635\u0644\u0627\u062d\u064a\u0629",n,n,n,n,n,n,n,n))],q),6,6)],q)
-if(l.length!==0)B.b.I(r,A.b([B.K,A.m(B.b.c4(l,"\u060c "),new A.f("role-permissions-"+k,j),n,n,n,i,n,B.f,n)],q))
-r.push(B.K)
-if(p){if(s)l=n
-else{l=m.ax
-h=l.ry
-if(h==null){h=l.u
-l=h==null?l.k3:h}else l=h
-l=i.bF(l)}r.push(A.m("\u0645\u062d\u0645\u064a \u0645\u0646 \u0627\u0644\u062d\u0630\u0641 \u0648\u062a\u063a\u064a\u064a\u0631 \u0627\u0644\u062d\u0627\u0644\u0629 \u0623\u0648 \u0627\u0644\u0635\u0644\u0627\u062d\u064a\u0627\u062a.",new A.f("role-protected-"+k,j),n,n,n,l,n,n,n))}else{l=o.d
-i=l?n:o.e
-i=A.bp(B.iK,new A.f("role-edit-"+k,j),n,n,i,n,n)
-l=l?n:o.f
-r.push(A.bE(A.b([i,A.bp(B.KC,new A.f("role-delete-"+k,j),n,n,l,n,A.rz(n,n,n,n,n,n,n,n,n,m.ax.fy,n,n,n,n,n,n,n,n,n,n))],q),B.E,B.id,B.k,0,n))}return A.eQ(new A.al(B.e_,A.aj(r,B.A,n,B.h,B.k,0,B.m),n),n,new A.f("role-card-"+k,j),n,n)}}
+r=A.m(r,m,m,m,m,h,m,m,m)
+p=j==="SUPER_ADMIN"
+if(p)o="\u062f\u0648\u0631 \u0645\u062d\u0645\u064a"
+else o=k.d?"\u062f\u0648\u0631 \u0623\u0633\u0627\u0633\u064a":"\u062f\u0648\u0631 \u0645\u062e\u0635\u0635"
+k=k.f
+o=A.b([g,B.bs,r,B.M,A.dQ(A.b([A.b8T(A.m(o,m,m,m,m,m,m,m,m)),A.b8T(A.m(""+k.length+" \u0635\u0644\u0627\u062d\u064a\u0629",m,m,m,m,m,m,m,m))],q),6,6)],q)
+if(k.length!==0)B.b.I(o,A.b([B.K,A.m(B.b.c4(k,"\u060c "),new A.f("role-permissions-"+j,i),m,m,m,h,m,B.f,m)],q))
+o.push(B.K)
+if(p){if(s)k=m
+else{k=l.ax
+g=k.ry
+if(g==null){g=k.u
+k=g==null?k.k3:g}else k=g
+k=h.bF(k)}o.push(A.m("\u062f\u0648\u0631 \u0645\u062d\u0645\u064a \u2014 \u0644\u0627 \u064a\u0645\u0643\u0646 \u062a\u0639\u062f\u064a\u0644\u0647 \u0623\u0648 \u062d\u0630\u0641\u0647.",new A.f("role-protected-"+j,i),m,m,m,k,m,m,m))}else{k=n.d
+h=k?m:n.e
+h=A.bp(B.iK,new A.f("role-edit-"+j,i),m,m,h,m,m)
+k=k?m:n.f
+o.push(A.bE(A.b([h,A.bp(B.KC,new A.f("role-delete-"+j,i),m,m,k,m,A.rz(m,m,m,m,m,m,m,m,m,l.ax.fy,m,m,m,m,m,m,m,m,m,m))],q),B.E,B.id,B.k,0,m))}return A.eQ(new A.al(B.e_,A.aj(o,B.A,m,B.h,B.k,0,B.m),m),m,new A.f("role-card-"+j,i),m,m)}}
 A.a_Y.prototype={}
 A.vU.prototype={
 a1(){return new A.Oi()}}
